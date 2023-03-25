@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadir Çabuk Web Sayfasi</title>
+    <link rel="stylesheet" href="proje.css">
+</head>
+<body>
+    <header class="fullscreen-header">
+        <nav class="nav">
+            <img class="site-logo" src="logoo.png" alt="site logo">
+            <ul class="nav__list">
+                <li><a href="#" class="nav__list-item">Hakkimda</a></li>
+                <li><a href="#" class="nav__list-item">Yazilarim</a></li>
+                <li><a href="#" class="nav__list-item btn">Iletişim</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Kadir Çabuk</h1>
+        <h3 class="header-subtitle">Bir yazilimcidan daha fazlasi...</h3>
+        <a class="btn" href="#">Daha Fazla Oğren</a>
+        <img class="icon-asagi" src="downn.png" alt="icon-asagi">
+    </header>
+    <main>
+        <section class="section">
+            <h2 class="section-title">Hakkimda</h2>
+            <div class="hakkimda-grid">
+                <div class="hakkimda-grid__item">
+                    <img src="zaman-kaybetme.png" alt="Kaynka seç resim" class="hakkimda-grid__resim">
+                    <p class="hakkimda-grid__yazi">
+                        Hizla gelişen yazilim sektörüne karşi kendimi geliştirmeye ve güncel
+                        tutmaya çalişiyorum. Güncel frameworkler ile yeni teknolojileri öğrenmeye
+                        gayret ediyorum.
+                    </p>
+                </div>
+                <div class="hakkimda-grid__item">
+                    <img src="sinirsiz-erisim.png" alt="Kaynka seç resim" class="hakkimda-grid__resim">
+                    <p class="hakkimda-grid__yazi">
+                        İlk yazilim serüvenim 2021 yilinda başladi. Başta düzensiz bir şekilde
+                        yazilim ile uğraşirdim ama verimli bir şekilde çalişmazdim. 2022 yilinda
+                        düzenli çalişmaya başladim.
+                    </p>
+                </div>
+                <div class="hakkimda-grid__item">
+                    <img src="bilgileri-arttir.png" alt="Kaynka seç resim" class="hakkimda-grid__resim">
+                    <p class="hakkimda-grid__yazi">
+                        Yaklaşik 6 veya 7 ay kadar C, Solidity ve Java üzerinden algoritma
+                        çalişmalari yaptim. Letcode ve Freecodecamp sitelerinde bulunan çoğu 
+                        algoritma problemlerini çözerek kendimi geliştirdim.
+                    </p>
+                </div>
+                <div class="hakkimda-grid__item">
+                    <img src="kaynak-secimi.png" alt="Kaynka seç resim" class="hakkimda-grid__resim">
+                    <p class="hakkimda-grid__yazi">
+                        2023 yili ile yazilim kariyerime Web programlama ile devam etmek
+                        istedim. Bu web sitesi benim ilk projem. Bunun için mutluyum. Hizla 
+                        gelişen yazilim sektöründe geri kalmayarak kendimi güncel tutmaya
+                        devam edeceğim.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section section--accent">
+            <div class="egitim-container">
+                <div class="egitim-card egitim-card--java">
+                    <h3 class="egitim-car__ad">Blockchain Nedir?</h3>
+                    <h3 class="egitim-car__sure">3 Dakika</h3>
+                    <p class="egitim-car__yazi">
+                        Blockchain nedir? ne işe yarar? Blockchain hakkinda yazmiş olduğum bir
+                        yazidir. Okuyan herkesin rahatlikla anlayacagini düşünüyorum. Teknik
+                        cümlelerden uzak durarak gerçek dünyadan örnekler vererek açiklamaya çaliştim.
+                    </p>
+                </div>
+                <div class="egitim-card egitim-card--nodejs">
+                    <h3 class="egitim-car__ad">DeFi Nedir?</h3>
+                    <h3 class="egitim-car__sure">3 Dakika</h3>
+                    <p class="egitim-car__yazi">
+                        DeFi nedir? Merkeziyetsiz finans anlamina gelen DeFi, son yillarda
+                        hizla popüler olmaya başladi. Bu merkeziyetsiz finans sisteminin yararlarini
+                        ve özelliklerini herkesin anlayabileceği, teknik cümleler kurmadan anlatmaya çaliştim.
+                    </p>
+                </div>
+                <div class="egitim-card egitim-card--flutter">
+                    <h3 class="egitim-car__ad">Ethereum 2.0 Nedir?</h3>
+                    <h3 class="egitim-car__sure">4 Dakika</h3>
+                    <p class="egitim-car__yazi">
+                        Ethereum Serenity anlamina gelen 2.0 güncelemesi hakkinda yazmiş 
+                        olduğum ilk blog yazim. Ethereum nasil çalişir? Günceleme sonrasi
+                        yaşanacaklar hakkinda yazmiş olduğum güzel bir blog yazisi.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Iletişim</h2>
+            <form action="#" class="form">
+                <label class="form-label" for="ad">Adiniz</label>
+                <input class="form-input" type="text" id="ad">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input" type="email" id="email">
+                <label class="form-label" for="mesaj">Mesajiniz</label>
+                <textarea class="form-input" name="mesaj" id="mesaj"></textarea>
+                <div class="btn-container">
+                    <button class="btn-kare btn">Gönder</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
